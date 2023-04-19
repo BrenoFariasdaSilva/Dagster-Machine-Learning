@@ -13,7 +13,7 @@ from script import *
 if __name__ == "__main__":
     #unittest relative to Dagster
     #not necessary for pytest
-    result = execute_pipeline(data_pipeline)
+    result = data_pipeline.execute_in_process()
     assert result.success
 
 ### pytest ###

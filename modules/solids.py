@@ -1,4 +1,4 @@
-from dagster import execute_pipeline, pipeline, solid, composite_solid, OutputDefinition, Output, Any
+from dagster import GraphOut, op, graph, OutputDefinition, Out, Any
 import os 
 import yaml
 import pandas as pd
@@ -21,13 +21,13 @@ logging.basicConfig(level=logging.DEBUG)
 #for production: logging.basicConfig(level=logging.WARNING)
 
 ##### data prrocessing #####
-@solid
+@op
 def create_dataframe(context, csv_path:str):
     df = pd.read_csv(csv_path)
     logging.debug(f"\n{df.describe()}")
     return df
 
-@solid
+@op
 def encode_label(context, df):
     #function to encode the sentiment into 0 or 1
     def encode(sentiment):
@@ -40,7 +40,7 @@ def encode_label(context, df):
     y = df['label']
     return y
 
-@solid
+@op
 def vectorize_text(context, df):
     x = df['comment']
     vectorizer = CountVectorizer()
@@ -49,7 +49,7 @@ def vectorize_text(context, df):
     return X
 
 ##### Training and evaluation #####
-@solid(
+@op(
     output_defs=[
         OutputDefinition(name='train', dagster_type=Any, is_required=True),
         OutputDefinition(name='test', dagster_type=Any, is_required=True),
@@ -67,7 +67,7 @@ def split_data(context, X,y):
     yield Output(training_data, 'train')
     yield Output(testing_data, 'test') 
 
-@solid
+@op
 def prepare_grid(context, key, param_grid):
     # If you want to use a switch pattern design instead of making the paramameter string callable:
     models = {'rf': RandomForestClassifier(random_state=30),
@@ -82,7 +82,7 @@ def prepare_grid(context, key, param_grid):
     grid = GridSearchCV(unoptimized_model, param_grid)
     return grid
     
-@solid
+@op
 def get_best_estimator(context,training_data, grid):
     logging.info(f"grid:\n{grid}")
     x_train = training_data[0]
@@ -95,7 +95,7 @@ def get_best_estimator(context,training_data, grid):
     model = search.best_estimator_
     return model
 
-@solid
+@op
 def train_model(context, training_data, model):
     x_train = training_data[0]
     y_train = training_data[1]
@@ -106,13 +106,13 @@ def train_model(context, training_data, model):
     logging.debug("model saved in /models")
     return trained_model
 
-@solid
+@op
 def evaluate_model(context, testing_data, trained_model):
     x_test = testing_data[0]
     y_test = testing_data[1]
     y_pred = trained_model.predict(x_test)
     logging.info(f"\n{trained_model}:\n{classification_report(y_test, y_pred)}")
 
-@composite_solid
+@graph(out=GraphOut)
 def process_model(training_data, testing_data, prep_grid):
     return evaluate_model(testing_data, train_model(training_data, get_best_estimator(training_data, prep_grid)))

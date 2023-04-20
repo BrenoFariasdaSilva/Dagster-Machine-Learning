@@ -39,5 +39,3 @@ def data_pipeline():
 if __name__ == "__main__":
     #for the first job, uncomment:
     JobDefinition.execute_in_process(data_pipeline)
-
-        

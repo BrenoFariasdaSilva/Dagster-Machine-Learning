@@ -8,7 +8,11 @@
   <img src="https://wakatime.com/badge/github/BrenoFariasdaSilva/Dagster-Machine-Learning.svg" alt="wakatime" />
 </p>
 
+<div align="center">
+  
 This application is a simple text classifier using sklearn for newcomers to be introduced to Dagster. 
+
+</div>
 
 <div align="center">
   

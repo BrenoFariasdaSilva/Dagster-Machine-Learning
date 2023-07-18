@@ -1,6 +1,6 @@
 <div align="center">
   
-# [Dagster Machine Learning with Directed Acyclic Graphs - DAGs.](https://github.com/BrenoFariasdaSilva/Dagster-Machine-Learning) <img src="https://github.com/BrenoFariasdaSilva/Dagster-Machine-Learning/blob/main/assets/Dagster.svg"  width="11%" height="11%">
+# [Dagster - Machine Learning with Directed Acyclic Graphs - DAGs.](https://github.com/BrenoFariasdaSilva/Dagster-Machine-Learning) <img src="https://github.com/BrenoFariasdaSilva/Dagster-Machine-Learning/blob/main/assets/Dagster.svg"  width="11%" height="11%">
 
 </div>
 

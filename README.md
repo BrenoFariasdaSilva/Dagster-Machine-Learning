@@ -1,4 +1,4 @@
-# ML with DAGs  ❄️
+# [ML with DAGs](https://github.com/BrenoFariasdaSilva/Dagster-Machine-Learning)
 This application is a simple text classifier using sklearn for newcomers to be introduced to Dagster. 
 
 🙀 👉🏼 See a brief guided tour of Dagster and the DAG generated from this program at https://hackernoon.com/a-quick-introduction-to-machine-learning-with-dagster-gh53336m \

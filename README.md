@@ -1,6 +1,6 @@
 <div align="center">
   
-# [ML with DAGs](https://github.com/BrenoFariasdaSilva/Dagster-Machine-Learning)
+# [Machine Learning with DAGs](https://github.com/BrenoFariasdaSilva/Dagster-Machine-Learning)
 
 </div>
 
@@ -10,8 +10,12 @@
 
 <div align="center">
   
+---
+  
 This application is a simple text classifier using sklearn for newcomers to be introduced to Dagster. 
 
+---
+  
 </div>
 
 <div align="center">

@@ -10,6 +10,12 @@
 
 This application is a simple text classifier using sklearn for newcomers to be introduced to Dagster. 
 
+<div align="center">
+  
+![RepoBeats Statistics](https://repobeats.axiom.co/api/embed/16ca58d0f0ac3e275f842723978895c535d000c6.svg "Repobeats analytics image")
+
+</div>
+
 🙀 👉🏼 See a brief guided tour of Dagster and the DAG generated from this program at https://hackernoon.com/a-quick-introduction-to-machine-learning-with-dagster-gh53336m \
 or from the repository ./pdf/quick_start_with_ML_and_Dagster.pdf
 

@@ -14,9 +14,14 @@ This application is a simple text classifier using sklearn for newcomers to be i
   
 </div>
 
-<p align="center">
-  <img src="https://wakatime.com/badge/github/BrenoFariasdaSilva/Dagster-Machine-Learning.svg" alt="wakatime" />
-</p>
+<div align="center">
+
+![GitHub Code Size in Bytes](https://img.shields.io/github/languages/code-size/BrenoFariasdaSilva/Dagster-Machine-Learning)
+![GitHub Last Commit](https://img.shields.io/github/last-commit/BrenoFariasdaSilva/Dagster-Machine-Learning)
+![GitHub](https://img.shields.io/github/license/BrenoFariasdaSilva/Dagster-Machine-Learning)
+![wakatime](https://wakatime.com/badge/github/BrenoFariasdaSilva/Dagster-Machine-Learning.svg)
+
+</div>
 
 <div align="center">
   

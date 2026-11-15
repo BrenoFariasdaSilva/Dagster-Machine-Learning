@@ -24,10 +24,30 @@ This application is a simple text classifier using sklearn for newcomers to be i
 </div>
 
 <div align="center">
-  
-![RepoBeats Statistics](https://repobeats.axiom.co/api/embed/16ca58d0f0ac3e275f842723978895c535d000c6.svg "Repobeats analytics image")
+
+![GitHub Code Size in Bytes](https://img.shields.io/github/languages/code-size/BrenoFariasdaSilva/Dagster-Machine-Learning)
+![GitHub Last Commit](https://img.shields.io/github/last-commit/BrenoFariasdaSilva/Dagster-Machine-Learning)
+![GitHub License](https://img.shields.io/github/license/BrenoFariasdaSilva/Dagster-Machine-Learning)
+![wakatime](https://wakatime.com/badge/github/BrenoFariasdaSilva/Dagster-Machine-Learning.svg)
+[![GitHub Commits](https://img.shields.io/github/commit-activity/t/BrenoFariasdaSilva/Dagster-Machine-Learning/main)](https://github.com/BrenoFariasdaSilva/Dagster-Machine-Learning/commits/main)
+[![GitHub Forks](https://img.shields.io/github/forks/BrenoFariasdaSilva/Dagster-Machine-Learning)](https://github.com/BrenoFariasdaSilva/Dagster-Machine-Learning/network/members)
+![GitHub Language Count](https://img.shields.io/github/languages/count/BrenoFariasdaSilva/Dagster-Machine-Learning)
+[![GitHub Stars](https://img.shields.io/github/stars/BrenoFariasdaSilva/Dagster-Machine-Learning)](https://github.com/BrenoFariasdaSilva/Dagster-Machine-Learning/stargazers)
+[![GitHub Contributors](https://img.shields.io/github/contributors/BrenoFariasdaSilva/Dagster-Machine-Learning)](https://github.com/BrenoFariasdaSilva/Dagster-Machine-Learning/graphs/contributors)
+[![GitHub Created At](https://img.shields.io/github/created-at/BrenoFariasdaSilva/Dagster-Machine-Learning)](https://github.com/BrenoFariasdaSilva/Dagster-Machine-Learning)
+[![GitHub Repository Size](https://img.shields.io/github/repo-size/BrenoFariasdaSilva/Dagster-Machine-Learning)](https://github.com/BrenoFariasdaSilva/Dagster-Machine-Learning)
+[![Open Issues](https://img.shields.io/github/issues/BrenoFariasdaSilva/Dagster-Machine-Learning)](https://github.com/BrenoFariasdaSilva/Dagster-Machine-Learning/issues)
+[![Closed Issues](https://img.shields.io/github/issues-closed/BrenoFariasdaSilva/Dagster-Machine-Learning)](https://github.com/BrenoFariasdaSilva/Dagster-Machine-Learning/issues?q=is%3Aissue+is%3Aclosed)
+[![Open Pull Requests](https://img.shields.io/github/issues-pr/BrenoFariasdaSilva/Dagster-Machine-Learning)](https://github.com/BrenoFariasdaSilva/Dagster-Machine-Learning/pulls)
+[![Closed Pull Requests](https://img.shields.io/github/issues-pr-closed/BrenoFariasdaSilva/Dagster-Machine-Learning)](https://github.com/BrenoFariasdaSilva/Dagster-Machine-Learning/pulls?q=is%3Apr+is%3Aclosed)
+[![Monthly Commits](https://img.shields.io/github/commit-activity/m/BrenoFariasdaSilva/Dagster-Machine-Learning/main)](https://github.com/BrenoFariasdaSilva/Dagster-Machine-Learning/commits)
+[![Merged PRs](https://img.shields.io/github/issues-search/BrenoFariasdaSilva/Dagster-Machine-Learning?query=is%3Apr%20is%3Amerged&label=merged%20PRs&color=blue)](https://github.com/BrenoFariasdaSilva/Dagster-Machine-Learning/pulls?q=is%3Apr+is%3Amerged)
+![GitHub Primary Language](https://img.shields.io/badge/language-Python-3b82f6)
+
+![Repobeats Statistics](https://repobeats.axiom.co/api/embed/16ca58d0f0ac3e275f842723978895c535d000c6.svg)
 
 </div>
+
 
 ## Table of Contents
 - [Dagster Machine Learning with Directed Acyclic Graphs - DAGs. ](#dagster-machine-learning-with-directed-acyclic-graphs---dags-)

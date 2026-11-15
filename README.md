@@ -20,15 +20,6 @@ This application is a simple text classifier using sklearn for newcomers to be i
 ![GitHub Last Commit](https://img.shields.io/github/last-commit/BrenoFariasdaSilva/Dagster-Machine-Learning)
 ![GitHub](https://img.shields.io/github/license/BrenoFariasdaSilva/Dagster-Machine-Learning)
 ![wakatime](https://wakatime.com/badge/github/BrenoFariasdaSilva/Dagster-Machine-Learning.svg)
-
-</div>
-
-<div align="center">
-
-![GitHub Code Size in Bytes](https://img.shields.io/github/languages/code-size/BrenoFariasdaSilva/Dagster-Machine-Learning)
-![GitHub Last Commit](https://img.shields.io/github/last-commit/BrenoFariasdaSilva/Dagster-Machine-Learning)
-![GitHub License](https://img.shields.io/github/license/BrenoFariasdaSilva/Dagster-Machine-Learning)
-![wakatime](https://wakatime.com/badge/github/BrenoFariasdaSilva/Dagster-Machine-Learning.svg)
 [![GitHub Commits](https://img.shields.io/github/commit-activity/t/BrenoFariasdaSilva/Dagster-Machine-Learning/main)](https://github.com/BrenoFariasdaSilva/Dagster-Machine-Learning/commits/main)
 [![GitHub Forks](https://img.shields.io/github/forks/BrenoFariasdaSilva/Dagster-Machine-Learning)](https://github.com/BrenoFariasdaSilva/Dagster-Machine-Learning/network/members)
 ![GitHub Language Count](https://img.shields.io/github/languages/count/BrenoFariasdaSilva/Dagster-Machine-Learning)
@@ -43,7 +34,6 @@ This application is a simple text classifier using sklearn for newcomers to be i
 [![Monthly Commits](https://img.shields.io/github/commit-activity/m/BrenoFariasdaSilva/Dagster-Machine-Learning/main)](https://github.com/BrenoFariasdaSilva/Dagster-Machine-Learning/commits)
 [![Merged PRs](https://img.shields.io/github/issues-search/BrenoFariasdaSilva/Dagster-Machine-Learning?query=is%3Apr%20is%3Amerged&label=merged%20PRs&color=blue)](https://github.com/BrenoFariasdaSilva/Dagster-Machine-Learning/pulls?q=is%3Apr+is%3Amerged)
 ![GitHub Primary Language](https://img.shields.io/badge/language-Python-3b82f6)
-
 ![Repobeats Statistics](https://repobeats.axiom.co/api/embed/16ca58d0f0ac3e275f842723978895c535d000c6.svg)
 
 </div>

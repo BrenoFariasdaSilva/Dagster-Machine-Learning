@@ -26,7 +26,6 @@ This application is a simple text classifier using sklearn for newcomers to be i
 [![GitHub Stars](https://img.shields.io/github/stars/BrenoFariasdaSilva/Dagster-Machine-Learning)](https://github.com/BrenoFariasdaSilva/Dagster-Machine-Learning/stargazers)
 [![GitHub Contributors](https://img.shields.io/github/contributors/BrenoFariasdaSilva/Dagster-Machine-Learning)](https://github.com/BrenoFariasdaSilva/Dagster-Machine-Learning/graphs/contributors)
 [![GitHub Created At](https://img.shields.io/github/created-at/BrenoFariasdaSilva/Dagster-Machine-Learning)](https://github.com/BrenoFariasdaSilva/Dagster-Machine-Learning)
-[![GitHub Repository Size](https://img.shields.io/github/repo-size/BrenoFariasdaSilva/Dagster-Machine-Learning)](https://github.com/BrenoFariasdaSilva/Dagster-Machine-Learning)
 [![Open Issues](https://img.shields.io/github/issues/BrenoFariasdaSilva/Dagster-Machine-Learning)](https://github.com/BrenoFariasdaSilva/Dagster-Machine-Learning/issues)
 [![Closed Issues](https://img.shields.io/github/issues-closed/BrenoFariasdaSilva/Dagster-Machine-Learning)](https://github.com/BrenoFariasdaSilva/Dagster-Machine-Learning/issues?q=is%3Aissue+is%3Aclosed)
 [![Open Pull Requests](https://img.shields.io/github/issues-pr/BrenoFariasdaSilva/Dagster-Machine-Learning)](https://github.com/BrenoFariasdaSilva/Dagster-Machine-Learning/pulls)
